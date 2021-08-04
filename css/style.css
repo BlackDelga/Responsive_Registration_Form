@@ -11,7 +11,7 @@
 /*FORM*/
 
 form {
-	max-width: 300px;
+	max-width: 600px;
 	margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ select {
 	background: rgba(255, 255, 255, 0.1);
 	border: 2px solid #8a97a0;
 	border-radius: 4px;
-	font-size: 16px;
+	font-size: 12px;
 	height: auto;
 	margin: 0;
 	outline: 0;
@@ -39,6 +39,7 @@ select {
 	color: #8a97a0;
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
 	margin-bottom: 30px;
+	text-align: justify;
 }
 
 input[type="radio"],
@@ -62,8 +63,8 @@ fieldset {
 
 input:focus,
 textarea:focus {
-	background-color: #b0ebf2;
-	border: 2px solid #8a97a0;
+	background-color: white;
+	border: 2px solid #000;
 }
 
 /*PLACEHOLDER*/
@@ -98,15 +99,6 @@ textarea:focus {
 	font-style: italic;
 }
 
-/*HEADER*/
-
-header {
-	background: #38b4c1;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-}
-
 /*FORM TEXT*/
 
 h2 {
@@ -116,14 +108,13 @@ h2 {
 
 p {
 	text-align: center;
-	font-size: 15px;
+	font-size: 13px;
 	color: #b1b5b9;
-	margin: 10px;
-	padding: 10px 0 20px;
+	padding-bottom: 30px;
 }
 
 legend {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 600;
 	padding: 20px 0 20px;
 }
@@ -132,7 +123,7 @@ legend {
 
 label {
 	display: block;
-	margin-bottom: 8px;
+	margin-bottom: 12px;
 }
 
 label.light {
@@ -143,39 +134,40 @@ label.light {
 /*BUTTON*/
 
 button {
-	padding: 19px 39px 18px 39px;
-	color: #fff;
-	background-color: #38b4c1;
-	font-size: 18px;
+	padding: 13px 39px 13px 38px;
+	color: white;
+	background-color: #28c0c6;
+	font-size: 15px;
 	text-align: center;
-	font-style: normal;
 	border-radius: 5px;
 	width: 100%;
 	border: 1px solid #28c0c6;
 	border-width: 1px 1px 3px;
 	box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
-	margin-bottom: 10px;
 }
 
 /*HORIZONTAL RULES*/
 
 hr.style1 {
-	border-top: 3px solid #000;
+	border-top: 1px solid #000;
+	width: 100%;
 }
 
 hr.style2 {
-	border-top: 8px double #000;
+	border-top: 6px double #000;
 }
 
 /*COPYRIGHT*/
 
 .copyright {
 	text-align: center;
-	font-size: 15px;
-	font-style: italic;
+	font-size: 12px;
+	font-style: normal;
 	color: #b1b5b9;
-	padding: 20px;
+	padding: 25px;
 }
+
+/*COPYRIGHT*/
 
 /*MEDIAQUERIES*/
 
